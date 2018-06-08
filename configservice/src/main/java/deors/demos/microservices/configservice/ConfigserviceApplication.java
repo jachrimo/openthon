@@ -10,3 +10,5 @@ public class ConfigserviceApplication {
 		SpringApplication.run(ConfigserviceApplication.class, args);
 	}
 }
+
+@org.springframework.cloud.config.server.EnableConfigServer
